@@ -1,9 +1,9 @@
 # music163_nodejs
 ``` bash
 # 下载项目到本地
-git clone git@github.com:sqaiyan/netmusic-node.git
+git clone git@github.com:Jesonhu/music163_nodejs.git
 
-cd netmusic-node 
+cd music163_nodejs
 
 # 安装依赖
 npm install 
@@ -23,4 +23,7 @@ pm2 start app.js
 
 接口调用是有频率限制的,搜索类太频繁会返回空数据，登录类直接封IP，部署在vps要小心开放访问
 
-原作者[sqaiyan](https://github.com/sqaiyan/netmusic-node),此Express版本是在此基础上二次开发 
+原作者[sqaiyan](https://github.com/sqaiyan/netmusic-node),此Express版本是在此基础上二次开发
+
+## 参考
+[网易云音乐 NodeJS 版 API](https://binaryify.github.io/NeteaseCloudMusicApi/#/)
