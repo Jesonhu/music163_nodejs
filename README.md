@@ -9,8 +9,9 @@ cd netmusic-node
 npm install 
 
 # 启动项目 服务器中可用pm2或foreve之类
-node app.js | pm2 app.js
-
+npm run start 
+// or
+pm2 start app.js
 ```
 
 
